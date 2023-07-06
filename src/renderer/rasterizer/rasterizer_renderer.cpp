@@ -5,6 +5,7 @@
 
 void cg::renderer::rasterization_renderer::init()
 {
+
 	rasterizer = std::make_shared<
 			cg::renderer::rasterizer<cg::vertex, cg::unsigned_color>>();
 	rasterizer->set_viewport(settings->width, settings->height);
